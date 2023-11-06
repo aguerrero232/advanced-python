@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "advanced-python"
+version = "0.1.0"
+description = "My learning path to become a master at python"
+authors = ["Guerrero <arielguerrero1012@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "advanced_python"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+polars = "^0.19.12"
+jupyter = "^1.0.0"
+
+[tool.poetry.group.dev.dependencies]
+numpy = "^1.26.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
