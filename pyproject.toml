@@ -11,6 +11,7 @@ packages = [{include = "advanced_python"}]
 python = ">=3.10,<3.13"
 polars = "^0.19.12"
 jupyter = "^1.0.0"
+ipynb = "^0.5.1"
 
 [tool.poetry.group.dev.dependencies]
 numpy = "^1.26.1"
