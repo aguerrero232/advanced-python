@@ -8,10 +8,13 @@ readme = "README.md"
 packages = [{include = "advanced_python"}]
 
 [tool.poetry.dependencies]
-python = ">=3.10,<3.13"
+python = ">=3.10,<3.12"
 polars = "^0.19.12"
 jupyter = "^1.0.0"
 ipynb = "^0.5.1"
+tensorflow = "^2.15.0"
+anaconda = "^0.0.1.1"
+pydotplus = "^2.0.2"
 
 [tool.poetry.group.dev.dependencies]
 numpy = "^1.26.1"
